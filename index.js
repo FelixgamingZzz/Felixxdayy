@@ -31,8 +31,8 @@ app.use(
 app.use(express.json());
 app.use(express.static(path.join(__dirname)));
 
-const apikey = "ptlc_7kM0x6iZpTot9Z42z9l5uyIXZsAesGWAqJWMJ3ShpuS";
-const capikey = "ptla_OXUUD11G9ohpradv96Nfgt1K6EsZjAAcamoiNZxEELM";
+const apikey = "ptla_OXUUD11G9ohpradv96Nfgt1K6EsZjAAcamoiNZxEELM";
+const capikey = "ptlc_7kM0x6iZpTot9Z42z9l5uyIXZsAesGWAqJWMJ3ShpuS";
 const domain = "https://dayyfelixx.privatesrvr.xyz";
 const nestid = "5";
 const egg = "15";
@@ -81,7 +81,7 @@ app.post("/create", async (req, res) => {
     const serverRes = await fetch(`${domain}/api/application/servers`, {
       method: "POST",
       headers: {
-        Authorization: `Bearer ${apikey}`,
+        Authorization: "Bearer " + {apikey},
         Accept: "application/json",
         "Content-Type": "application/json",
       },
