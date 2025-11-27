@@ -31,9 +31,9 @@ app.use(
 app.use(express.json());
 app.use(express.static(path.join(__dirname)));
 
-const apikey = "ptla_OXUUD11G9ohpradv96Nfgt1K6EsZjAAcamoiNZxEELM";
-const capikey = "ptlc_7kM0x6iZpTot9Z42z9l5uyIXZsAesGWAqJWMJ3ShpuS";
-const domain = "https://dayyfelixx.privatesrvr.xyz";
+const apikey = "ptla_23PF76spPJ80Cgx90aa99S452dQhSdry64WWEvEx1Ae";
+const capikey = "ptlc_t43wYdbYdPLpzMv3suPk91M7RoGfXaZepPMU0hp3jey";
+const domain = "https://erineemd.jkt48-private.com";
 const nestid = "5";
 const egg = "15";
 const loc = "1";
