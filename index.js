@@ -31,8 +31,8 @@ app.use(
 app.use(express.json());
 app.use(express.static(path.join(__dirname)));
 
-const apikey = "ptla_23PF76spPJ80Cgx90aa99S452dQhSdry64WWEvEx1Ae";
-const capikey = "ptlc_t43wYdbYdPLpzMv3suPk91M7RoGfXaZepPMU0hp3jey";
+const apikey = "ptlc_t43wYdbYdPLpzMv3suPk91M7RoGfXaZepPMU0hp3jey";
+const capikey = "ptla_23PF76spPJ80Cgx90aa99S452dQhSdry64WWEvEx1Ae";
 const domain = "https://erineemd.jkt48-private.com";
 const nestid = "5";
 const egg = "15";
